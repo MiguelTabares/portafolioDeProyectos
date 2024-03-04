@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+.container-90 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto; /* Centra horizontalmente */
+    background-image: url('/images/tile_background.png'); /* Ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.container {
+    margin-top: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    }
+  
+h1 {
+    font-size: 10rem; /* Cambia el tamaño del título principal */
+    color: rgb(68, 229, 231); /* Cambia el color del texto */
+    margin-left: 3rem;
+    }
+
+h2 {
+    font-size: 6.5rem;
+    margin-left: 3rem;
+}
+  
+p   {
+    color: rgb(74, 143, 231); /* Cambia el color del texto */
+    text-align: center; /* Centra el texto */
+    padding-left: 2rem;
+    }
+
+.navbar-brand{
+    color: rgb(68, 229, 231);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.nav-link{
+    color: #73FBD3;
+    font-size: 1.3rem;
+}
+
+
+
+.titlePageContainer{
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.buttonContainer{
+    display: flex;
+}
+
+#btnVer{
+    margin-right: 6rem;
+    margin-top: 8rem;
+    height: 10rem;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 2rem;
+}
